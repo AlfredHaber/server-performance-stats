@@ -27,3 +27,5 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/server-performance-stats.git
+GitHub Repository:
+https://github.com/AlfredHaber/server-performance-stats
