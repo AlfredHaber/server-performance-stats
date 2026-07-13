@@ -29,3 +29,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/AlfredHaber/server-performance-stats.git
+
+## Project URL
+
+https://github.com/AlfredHaber/server-performance-stats
