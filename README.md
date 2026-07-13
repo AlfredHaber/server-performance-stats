@@ -1,20 +1,18 @@
 # Server Performance Stats
 
-A Bash script to analyze basic Linux server performance statistics.
+A Bash script that analyzes basic Linux server performance statistics.
 
-## Project Description
+## About
 
-This project contains a shell script called `server-stats.sh` that collects and displays basic server performance information.
+Server Performance Stats is a simple Linux monitoring script that collects and displays basic server information.
 
-The script can be used on Linux servers to quickly check CPU usage, memory usage, disk usage, and running processes.
+The script provides:
 
-## Features
-
-- CPU usage monitoring
-- Memory usage monitoring
-- Disk usage monitoring
-- Display running processes
-- Basic Linux server performance analysis
+- Total CPU usage
+- Memory usage (used and free)
+- Disk usage
+- Top 5 processes by CPU usage
+- Top 5 processes by memory usage
 
 ## Requirements
 
@@ -29,7 +27,7 @@ Clone the repository:
 git clone https://github.com/AlfredHaber/server-performance-stats.git
 ```
 
-Go to the project folder:
+Navigate to the project folder:
 
 ```bash
 cd server-performance-stats
@@ -41,25 +39,27 @@ Give execution permission:
 chmod +x server-stats.sh
 ```
 
-## Usage
+## Running the Script
 
-Run the script:
+Execute:
 
 ```bash
 ./server-stats.sh
 ```
 
-## Example Output
+## Example
+
+Output example:
 
 ```
 Server Performance Statistics
 
 CPU Usage:
-CPU Usage: 0%
+CPU Usage: 10%
 
 Memory Usage:
-Used: 329 MB
-Free: 7480 MB
+Used: 2GB
+Free: 6GB
 
 Disk Usage:
 Used: 55%
@@ -71,21 +71,11 @@ PID USER COMMAND
 ## Project Structure
 
 ```
-server-performance-stats/
+server-performance-stats
 │
 ├── server-stats.sh
 └── README.md
 ```
-
-## Technologies Used
-
-- Bash
-- Linux Commands
-- Ubuntu WSL
-
-## Author
-
-Alfred Haber
 
 ## Project URL
 
